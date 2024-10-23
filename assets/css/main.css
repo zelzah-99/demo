@@ -3997,17 +3997,7 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-.skill-button {
-    display: block;
-    background-color: #d3d3d3;
-    color: black;
-    border: none;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+
 
 .skill-button:hover {
     background-color: #a9a9a9;
