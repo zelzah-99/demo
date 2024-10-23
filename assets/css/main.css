@@ -3997,26 +3997,6 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-/* Add this to your external CSS file, e.g., main.css */
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.skill-category {
-    flex: 1 1 200px;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.skill-category h3 {
-    margin-bottom: 10px;
-    color: #333;
-}
-
 .skill-button {
     display: block;
     background-color: #d3d3d3;
