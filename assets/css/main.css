@@ -3997,6 +3997,24 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
-	
+	.skills {
+    margin-bottom: 20px; /* Space between skill groups */
+}
+
+.skill-button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.skill-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
 	
 	
