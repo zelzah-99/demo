@@ -186,6 +186,27 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<script>
+    $(document).ready(function() {
+        // Smooth scrolling to the section when clicking on the navigation link
+        $('a[href^="#"]').on('click', function(event) {
+            // Prevent the default anchor click behavior
+            event.preventDefault();
+
+            // Store the hash of the target
+            var target = this.hash;
+
+            // Animate the scroll to the target section
+            $('html, body').animate({
+                scrollTop: $(target).offset().top
+            }, 800, function() {
+                // Add the hash to the URL when done scrolling
+                window.location.hash = target;
+            });
+        });
+    });
+</script>
+
 
 	</body>
 </html>
